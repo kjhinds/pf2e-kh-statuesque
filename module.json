@@ -1,0 +1,30 @@
+{
+  "id": "pf2e-kh-statuesque",
+  "title": "Statuesque",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "description": "<p><em><strong>A group of adventurers awaken from a curse of petrification to find themselves in an otherworldly garden maze. A sorceress releasing them from the curse is overtaken herself and has time to utter only a single, desperate word: Escape.</strong></em></p><p><em><strong><br /></strong></em>Statuesque is a level 4, 3-4 hour adventure designed to be used on its own or as part of a longer story. The nature of the adventure brings the PCs together regardless of their previous background, so it can work with brand new characters or an established party. By the end, they will have a one-way ticket to wherever their adventure will lead them next.</p>",
+  "authors": [
+    {
+      "name": "Kalon Hinds",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "pf2e-kh-statuesque",
+      "label": "Statuesque",
+      "path": "packs/pf2e-kh-statuesque",
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    }
+  ]
+}
