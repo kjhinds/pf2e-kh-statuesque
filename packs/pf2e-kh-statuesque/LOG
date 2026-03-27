@@ -3,3 +3,22 @@
 2026/03/26-18:35:13.903385 7f24ed3ff640 Level-0 table #43: 127309 bytes OK
 2026/03/26-18:35:13.970889 7f24ed3ff640 Delete type=0 #41
 2026/03/26-18:35:13.980226 7f24ed3ff640 Delete type=3 #40
+2026/03/26-18:58:12.044531 7f221ee17640 Level-0 table #46: started
+2026/03/26-18:58:12.075095 7f221ee17640 Level-0 table #46: 127311 bytes OK
+2026/03/26-18:58:12.109240 7f221ee17640 Delete type=0 #44
+2026/03/26-18:58:12.134887 7f221ee17640 Manual compaction at level-0 from '!adventures!hd8aFcXc32k23dIO' @ 72057594037927935 : 1 .. '!adventures!hd8aFcXc32k23dIO' @ 0 : 0; will stop at '!adventures!hd8aFcXc32k23dIO' @ 8 : 1
+2026/03/26-18:58:12.134932 7f221ee17640 Compacting 2@0 + 0@1 files
+2026/03/26-18:58:12.165120 7f221ee17640 Generated table #47@0: 1 keys, 127311 bytes
+2026/03/26-18:58:12.165149 7f221ee17640 Compacted 2@0 + 0@1 files => 127311 bytes
+2026/03/26-18:58:12.199068 7f221ee17640 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/03/26-18:58:12.199140 7f221ee17640 Delete type=2 #46
+2026/03/26-18:58:12.199212 7f221ee17640 Delete type=2 #43
+2026/03/26-18:58:12.199319 7f221ee17640 Manual compaction at level-0 from '!adventures!hd8aFcXc32k23dIO' @ 8 : 1 .. '!adventures!hd8aFcXc32k23dIO' @ 0 : 0; will stop at (end)
+2026/03/26-18:58:12.199370 7f221ee17640 Manual compaction at level-1 from '!adventures!hd8aFcXc32k23dIO' @ 72057594037927935 : 1 .. '!adventures!hd8aFcXc32k23dIO' @ 0 : 0; will stop at '!adventures!hd8aFcXc32k23dIO' @ 9 : 1
+2026/03/26-18:58:12.199374 7f221ee17640 Compacting 1@1 + 1@2 files
+2026/03/26-18:58:12.221351 7f221ee17640 Generated table #48@1: 1 keys, 127311 bytes
+2026/03/26-18:58:12.221361 7f221ee17640 Compacted 1@1 + 1@2 files => 127311 bytes
+2026/03/26-18:58:12.254745 7f221ee17640 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/03/26-18:58:12.254963 7f221ee17640 Delete type=2 #27
+2026/03/26-18:58:12.268464 7f221ee17640 Delete type=2 #47
+2026/03/26-18:58:12.268786 7f221ee17640 Manual compaction at level-1 from '!adventures!hd8aFcXc32k23dIO' @ 9 : 1 .. '!adventures!hd8aFcXc32k23dIO' @ 0 : 0; will stop at (end)
