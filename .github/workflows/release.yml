@@ -1,0 +1,25 @@
+  # Add your build and other necessary steps here
+
+  - name: Create Release
+    id: create_release
+    uses: actions/create-release@v1
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    with:
+      tag_name: ${{ github.event.release.tag_name }}
+      release_name: Release ${{ github.event.release.tag_name }}
+      body: |
+        Description of the release
+      draft: false
+      prerelease: false
+
+  - name: Upload Release Asset
+    id: upload-release-asset
+    uses: actions/upload-release-asset@v1
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    with:
+      upload_url: ${{ steps.create_release.outputs.upload_url }}
+      asset_path: ./module.json
+      asset_name: module.json
+      asset_content_type: application/json
