@@ -27,7 +27,7 @@
       "flags": {}
     }
   ],
-  "url": "#{URL}#",
-  "manifest": "#{MANIFEST}#",
-  "download": "#{DOWNLOAD}#"
+  "url": "https://github.com/kjhinds/pf2e-kh-statuesque/blob/main/module.json",
+  "manifest": "https://github.com/kjhinds/pf2e-kh-statuesque/blob/main/module.json",
+  "download": "https://github.com/kjhinds/pf2e-kh-statuesque/blob/main/module.json"
 }
